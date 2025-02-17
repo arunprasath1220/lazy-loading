@@ -1,0 +1,31 @@
+.appContainer {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #1e1e1e, #343a40);
+  color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+  font-size:50px;
+  font-weight: bold;
+  color: #ffcc00;
+  text-shadow: 2px 2px 10px rgba(255, 204, 0, 0.5);
+}
+
+.loading {
+  font-size: 18px;
+  color: #ffcc00;
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
